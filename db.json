@@ -1,0 +1,26 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "Nome": "Thito",
+            "Email": "contato@email.com"
+        },
+        {
+            "id": 2,
+            "nome": "Josy",
+            "email": "contato2@email.com"
+        }
+    ],
+    "products":[
+        {
+            "id": 1,
+            "nome": "Mouse Gamer X",
+            "valor": 99.99
+        },
+        {
+            "id": 2,
+            "nome" : "Teclado mecânico",
+            "valor": 499.99
+        }
+    ]
+}
