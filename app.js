@@ -3,7 +3,7 @@ const api = axios.create({
 });
 
 const section = "users";
-const record = [];
+let record = [];
 
 const $ = selector => document.querySelector(selector);
 
@@ -18,7 +18,7 @@ async function listar( endpoint = `/${section}`){
 
 function renderizar(){
     const isUsers= section === "users";
-    $('#page.title').textContent = isUsers ? "Usuários" : "Produtos";
+    $('#page-title').textContent = isUsers ? "Usuários" : "Produtos";
     $('#table-head').innerHTML = isUsers ? '<tr><th>ID</th><th>Nome</th><th>E-mail</th> </tr>' :
     '<tr><th>ID</th><th>Produto</th><th>Preço</th></td>';
     $('#table-body').innerHTML = record.map(
