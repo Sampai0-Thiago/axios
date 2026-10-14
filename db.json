@@ -3,14 +3,14 @@
         {
             "id": 1,
             "Nome": "Thito",
-            "Email": "contato@email.com"
+            "email": "contato@email.com"
         },
         {
             "id": 2,
             "nome": "Josy",
             "email": "contato2@email.com"
         }
-    ],
+    ], 
     "products":[
         {
             "id": 1,
